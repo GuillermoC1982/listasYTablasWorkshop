@@ -1,0 +1,75 @@
+/* html{
+    font-size: 62.5%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: initial; */
+}
+
+li{
+    background-color: aqua;
+    list-style-position: inside;
+    padding-left: 1rem;
+    list-style-image: url("./carnita.ico");
+    
+}
+
+li::marker{
+    height: 20px;
+    width: 20px;
+    font-size: 1rem;
+}
+
+.pasosLista{
+    color: blue;
+}
+
+li ol, li ul{
+    padding-left: 2rem;
+}
+
+
+h1{
+    color: rgb(83, 164, 196);
+    text-align: center;
+}
+
+h2,p{
+    width: 100vw;
+  
+}
+p{
+    padding-bottom: 2rem;
+
+}
+
+h3{
+    color: rgb(163, 163, 105);
+}
+
+nav{
+    display: flex;
+    margin-right: 1rem;
+}
+
+a{
+    margin-right: 1rem;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    
+}
+
+article{
+    border: 1px solid black;
+    line-height: 2rem;
+    width: 28rem;
+    padding:2rem;
+}
